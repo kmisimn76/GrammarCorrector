@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742892D929F72CF300B35A19 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742892D829F72CF300B35A19 /* StatusViewController.swift */; };
 		742CD14D29F30FAB009E97B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CD14C29F30FAB009E97B7 /* AppDelegate.swift */; };
-		742CD14F29F30FAB009E97B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CD14E29F30FAB009E97B7 /* ViewController.swift */; };
 		742CD15129F30FAE009E97B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742CD15029F30FAE009E97B7 /* Assets.xcassets */; };
 		742CD15429F30FAE009E97B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742CD15229F30FAE009E97B7 /* Main.storyboard */; };
 		742CD15F29F30FAE009E97B7 /* TestStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CD15E29F30FAE009E97B7 /* TestStoryboardTests.swift */; };
 		742CD16929F30FAE009E97B7 /* TestStoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CD16829F30FAE009E97B7 /* TestStoryboardUITests.swift */; };
 		742CD16B29F30FAE009E97B7 /* TestStoryboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CD16A29F30FAE009E97B7 /* TestStoryboardUITestsLaunchTests.swift */; };
+		742CD17E29F49326009E97B7 /* LoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CD17D29F49325009E97B7 /* LoadableView.swift */; };
+		742CD18F29F4BBE4009E97B7 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CD18D29F4BBE4009E97B7 /* StatusView.swift */; };
+		742CD19029F4BBE4009E97B7 /* StatusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742CD18E29F4BBE4009E97B7 /* StatusView.xib */; };
+		74757D4C29F82C1B003D0C60 /* StatusViewWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74757D4B29F82C1B003D0C60 /* StatusViewWrap.swift */; };
+		74757D5029F83F15003D0C60 /* convert1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74757D4F29F83F15003D0C60 /* convert1x.png */; };
+		74757D5229F83F47003D0C60 /* convert2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74757D5129F83F47003D0C60 /* convert2x.png */; };
+		74757D5529F8415F003D0C60 /* convertdark2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74757D5329F8415F003D0C60 /* convertdark2x.png */; };
+		74757D5629F8415F003D0C60 /* convertdark1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74757D5429F8415F003D0C60 /* convertdark1x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		742892D829F72CF300B35A19 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
 		742CD14929F30FAB009E97B7 /* TestStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		742CD14C29F30FAB009E97B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		742CD14E29F30FAB009E97B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		742CD15029F30FAE009E97B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		742CD15329F30FAE009E97B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		742CD15529F30FAE009E97B7 /* TestStoryboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestStoryboard.entitlements; sourceTree = "<group>"; };
@@ -45,6 +53,14 @@
 		742CD16429F30FAE009E97B7 /* TestStoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestStoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		742CD16829F30FAE009E97B7 /* TestStoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStoryboardUITests.swift; sourceTree = "<group>"; };
 		742CD16A29F30FAE009E97B7 /* TestStoryboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStoryboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		742CD17D29F49325009E97B7 /* LoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadableView.swift; sourceTree = "<group>"; };
+		742CD18D29F4BBE4009E97B7 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		742CD18E29F4BBE4009E97B7 /* StatusView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusView.xib; sourceTree = "<group>"; };
+		74757D4B29F82C1B003D0C60 /* StatusViewWrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewWrap.swift; sourceTree = "<group>"; };
+		74757D4F29F83F15003D0C60 /* convert1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = convert1x.png; sourceTree = "<group>"; };
+		74757D5129F83F47003D0C60 /* convert2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = convert2x.png; sourceTree = "<group>"; };
+		74757D5329F8415F003D0C60 /* convertdark2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = convertdark2x.png; sourceTree = "<group>"; };
+		74757D5429F8415F003D0C60 /* convertdark1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = convertdark1x.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +111,19 @@
 		742CD14B29F30FAB009E97B7 /* TestStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				74757D4F29F83F15003D0C60 /* convert1x.png */,
+				74757D5129F83F47003D0C60 /* convert2x.png */,
+				74757D5429F8415F003D0C60 /* convertdark1x.png */,
+				74757D5329F8415F003D0C60 /* convertdark2x.png */,
 				742CD14C29F30FAB009E97B7 /* AppDelegate.swift */,
-				742CD14E29F30FAB009E97B7 /* ViewController.swift */,
 				742CD15029F30FAE009E97B7 /* Assets.xcassets */,
 				742CD15229F30FAE009E97B7 /* Main.storyboard */,
 				742CD15529F30FAE009E97B7 /* TestStoryboard.entitlements */,
+				742CD17D29F49325009E97B7 /* LoadableView.swift */,
+				742CD18D29F4BBE4009E97B7 /* StatusView.swift */,
+				742CD18E29F4BBE4009E97B7 /* StatusView.xib */,
+				742892D829F72CF300B35A19 /* StatusViewController.swift */,
+				74757D4B29F82C1B003D0C60 /* StatusViewWrap.swift */,
 			);
 			path = TestStoryboard;
 			sourceTree = "<group>";
@@ -226,6 +250,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				742CD15129F30FAE009E97B7 /* Assets.xcassets in Resources */,
+				74757D5529F8415F003D0C60 /* convertdark2x.png in Resources */,
+				742CD19029F4BBE4009E97B7 /* StatusView.xib in Resources */,
+				74757D5629F8415F003D0C60 /* convertdark1x.png in Resources */,
+				74757D5029F83F15003D0C60 /* convert1x.png in Resources */,
+				74757D5229F83F47003D0C60 /* convert2x.png in Resources */,
 				742CD15429F30FAE009E97B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				742CD14F29F30FAB009E97B7 /* ViewController.swift in Sources */,
+				74757D4C29F82C1B003D0C60 /* StatusViewWrap.swift in Sources */,
+				742892D929F72CF300B35A19 /* StatusViewController.swift in Sources */,
+				742CD17E29F49326009E97B7 /* LoadableView.swift in Sources */,
+				742CD18F29F4BBE4009E97B7 /* StatusView.swift in Sources */,
 				742CD14D29F30FAB009E97B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,9 +455,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -448,9 +482,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",

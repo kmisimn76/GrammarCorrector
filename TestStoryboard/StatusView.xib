@@ -9,6 +9,7 @@
             <connections>
                 <outlet property="inputTextField" destination="Wes-5B-wUP" id="8n8-hr-ttt"/>
                 <outlet property="outputTextView" destination="WSm-gf-aiE" id="5jQ-OG-tvd"/>
+                <outlet property="selectedCB" destination="kQ8-B5-mfK" id="GZL-7R-kpO"/>
                 <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
             </connections>
         </customObject>
@@ -76,6 +77,21 @@
                         <action selector="exitation:" target="-2" id="UmL-Tm-T8m"/>
                     </connections>
                 </button>
+                <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kQ8-B5-mfK">
+                    <rect key="frame" x="139" y="237" width="132" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Running Target" drawsBackground="YES" completes="NO" numberOfVisibleItems="3" id="X7X-Zr-ILf">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        <objectValues>
+                            <string>Correct(on-premise)</string>
+                            <string>Correct(on-device)</string>
+                            <string>Correct(OpenAI-API)</string>
+                            <string>Chat(on-premise)</string>
+                        </objectValues>
+                    </comboBoxCell>
+                </comboBox>
             </subviews>
             <point key="canvasLocation" x="622" y="147"/>
         </customView>

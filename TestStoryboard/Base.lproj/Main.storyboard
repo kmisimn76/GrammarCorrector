@@ -11,9 +11,9 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="TestStoryboard" id="1Xt-HY-uBw">
+                            <menuItem title="GrammarCorrector" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="TestStoryboard" systemMenu="apple" showsStateColumn="NO" autoenablesItems="NO" id="uQy-DD-JDr">
+                                <menu key="submenu" title="GrammarCorrector" systemMenu="apple" showsStateColumn="NO" autoenablesItems="NO" id="uQy-DD-JDr">
                                     <items>
                                         <menuItem title="Item" localization="NO" mirroring="NO" id="NrC-J5-2KN" propertyAccessControl="none">
                                             <modifierMask key="keyEquivalentModifierMask"/>

@@ -43,14 +43,14 @@
 
 /* Begin PBXFileReference section */
 		742892D829F72CF300B35A19 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
-		742CD14929F30FAB009E97B7 /* TestStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		742CD14929F30FAB009E97B7 /* GrammarCorrector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrammarCorrector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		742CD14C29F30FAB009E97B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		742CD15029F30FAE009E97B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		742CD15329F30FAE009E97B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		742CD15529F30FAE009E97B7 /* TestStoryboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestStoryboard.entitlements; sourceTree = "<group>"; };
-		742CD15A29F30FAE009E97B7 /* TestStoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestStoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		742CD15A29F30FAE009E97B7 /* GrammarCorrectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrammarCorrectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		742CD15E29F30FAE009E97B7 /* TestStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStoryboardTests.swift; sourceTree = "<group>"; };
-		742CD16429F30FAE009E97B7 /* TestStoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestStoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		742CD16429F30FAE009E97B7 /* GrammarCorrectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrammarCorrectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		742CD16829F30FAE009E97B7 /* TestStoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStoryboardUITests.swift; sourceTree = "<group>"; };
 		742CD16A29F30FAE009E97B7 /* TestStoryboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStoryboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		742CD17D29F49325009E97B7 /* LoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadableView.swift; sourceTree = "<group>"; };
@@ -101,9 +101,9 @@
 		742CD14A29F30FAB009E97B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				742CD14929F30FAB009E97B7 /* TestStoryboard.app */,
-				742CD15A29F30FAE009E97B7 /* TestStoryboardTests.xctest */,
-				742CD16429F30FAE009E97B7 /* TestStoryboardUITests.xctest */,
+				742CD14929F30FAB009E97B7 /* GrammarCorrector.app */,
+				742CD15A29F30FAE009E97B7 /* GrammarCorrectorTests.xctest */,
+				742CD16429F30FAE009E97B7 /* GrammarCorrectorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		742CD14829F30FAB009E97B7 /* TestStoryboard */ = {
+		742CD14829F30FAB009E97B7 /* GrammarCorrector */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 742CD16E29F30FAE009E97B7 /* Build configuration list for PBXNativeTarget "TestStoryboard" */;
+			buildConfigurationList = 742CD16E29F30FAE009E97B7 /* Build configuration list for PBXNativeTarget "GrammarCorrector" */;
 			buildPhases = (
 				742CD14529F30FAB009E97B7 /* Sources */,
 				742CD14629F30FAB009E97B7 /* Frameworks */,
@@ -160,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = TestStoryboard;
+			name = GrammarCorrector;
 			productName = TestStoryboard;
-			productReference = 742CD14929F30FAB009E97B7 /* TestStoryboard.app */;
+			productReference = 742CD14929F30FAB009E97B7 /* GrammarCorrector.app */;
 			productType = "com.apple.product-type.application";
 		};
-		742CD15929F30FAE009E97B7 /* TestStoryboardTests */ = {
+		742CD15929F30FAE009E97B7 /* GrammarCorrectorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 742CD17129F30FAE009E97B7 /* Build configuration list for PBXNativeTarget "TestStoryboardTests" */;
+			buildConfigurationList = 742CD17129F30FAE009E97B7 /* Build configuration list for PBXNativeTarget "GrammarCorrectorTests" */;
 			buildPhases = (
 				742CD15629F30FAE009E97B7 /* Sources */,
 				742CD15729F30FAE009E97B7 /* Frameworks */,
@@ -178,14 +178,14 @@
 			dependencies = (
 				742CD15C29F30FAE009E97B7 /* PBXTargetDependency */,
 			);
-			name = TestStoryboardTests;
+			name = GrammarCorrectorTests;
 			productName = TestStoryboardTests;
-			productReference = 742CD15A29F30FAE009E97B7 /* TestStoryboardTests.xctest */;
+			productReference = 742CD15A29F30FAE009E97B7 /* GrammarCorrectorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		742CD16329F30FAE009E97B7 /* TestStoryboardUITests */ = {
+		742CD16329F30FAE009E97B7 /* GrammarCorrectorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 742CD17429F30FAE009E97B7 /* Build configuration list for PBXNativeTarget "TestStoryboardUITests" */;
+			buildConfigurationList = 742CD17429F30FAE009E97B7 /* Build configuration list for PBXNativeTarget "GrammarCorrectorUITests" */;
 			buildPhases = (
 				742CD16029F30FAE009E97B7 /* Sources */,
 				742CD16129F30FAE009E97B7 /* Frameworks */,
@@ -196,9 +196,9 @@
 			dependencies = (
 				742CD16629F30FAE009E97B7 /* PBXTargetDependency */,
 			);
-			name = TestStoryboardUITests;
+			name = GrammarCorrectorUITests;
 			productName = TestStoryboardUITests;
-			productReference = 742CD16429F30FAE009E97B7 /* TestStoryboardUITests.xctest */;
+			productReference = 742CD16429F30FAE009E97B7 /* GrammarCorrectorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 742CD14429F30FAB009E97B7 /* Build configuration list for PBXProject "TestStoryboard" */;
+			buildConfigurationList = 742CD14429F30FAB009E97B7 /* Build configuration list for PBXProject "GrammarCorrector" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -237,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				742CD14829F30FAB009E97B7 /* TestStoryboard */,
-				742CD15929F30FAE009E97B7 /* TestStoryboardTests */,
-				742CD16329F30FAE009E97B7 /* TestStoryboardUITests */,
+				742CD14829F30FAB009E97B7 /* GrammarCorrector */,
+				742CD15929F30FAE009E97B7 /* GrammarCorrectorTests */,
+				742CD16329F30FAE009E97B7 /* GrammarCorrectorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -310,12 +310,12 @@
 /* Begin PBXTargetDependency section */
 		742CD15C29F30FAE009E97B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 742CD14829F30FAB009E97B7 /* TestStoryboard */;
+			target = 742CD14829F30FAB009E97B7 /* GrammarCorrector */;
 			targetProxy = 742CD15B29F30FAE009E97B7 /* PBXContainerItemProxy */;
 		};
 		742CD16629F30FAE009E97B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 742CD14829F30FAB009E97B7 /* TestStoryboard */;
+			target = 742CD14829F30FAB009E97B7 /* GrammarCorrector */;
 			targetProxy = 742CD16529F30FAE009E97B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -513,7 +513,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestStoryboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestStoryboard";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrammarCorrector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GrammarCorrector";
 			};
 			name = Debug;
 		};
@@ -531,7 +531,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestStoryboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestStoryboard";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrammarCorrector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GrammarCorrector";
 			};
 			name = Release;
 		};
@@ -570,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		742CD14429F30FAB009E97B7 /* Build configuration list for PBXProject "TestStoryboard" */ = {
+		742CD14429F30FAB009E97B7 /* Build configuration list for PBXProject "GrammarCorrector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				742CD16C29F30FAE009E97B7 /* Debug */,
@@ -579,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		742CD16E29F30FAE009E97B7 /* Build configuration list for PBXNativeTarget "TestStoryboard" */ = {
+		742CD16E29F30FAE009E97B7 /* Build configuration list for PBXNativeTarget "GrammarCorrector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				742CD16F29F30FAE009E97B7 /* Debug */,
@@ -588,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		742CD17129F30FAE009E97B7 /* Build configuration list for PBXNativeTarget "TestStoryboardTests" */ = {
+		742CD17129F30FAE009E97B7 /* Build configuration list for PBXNativeTarget "GrammarCorrectorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				742CD17229F30FAE009E97B7 /* Debug */,
@@ -597,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		742CD17429F30FAE009E97B7 /* Build configuration list for PBXNativeTarget "TestStoryboardUITests" */ = {
+		742CD17429F30FAE009E97B7 /* Build configuration list for PBXNativeTarget "GrammarCorrectorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				742CD17529F30FAE009E97B7 /* Debug */,
